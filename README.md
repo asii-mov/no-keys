@@ -16,6 +16,10 @@ Python middleware for automatically detecting and redacting secrets in API reque
 - **Safe**: Fail-safe mode ensures service continuity on errors
 - **Zero Config**: Works out of the box with sensible defaults
 
+In the image we are sending a request to OpenRouter asking the model to repeat the secrets. We can see that all API keys are redacted until they reach your machine.
+<img width="885" height="971" alt="image" src="https://github.com/user-attachments/assets/d3708c56-b76c-4e32-ad28-70e6d2c50437" />
+
+
 ## Installation
 
 ### Quick Start with uv (Recommended)
