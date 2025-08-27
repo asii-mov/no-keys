@@ -2,6 +2,9 @@
 
 A production-ready Python middleware for automatically detecting and redacting secrets in API requests before sending them to model providers. Protects against accidental exposure of API keys, tokens, and credentials.
 
+![nokeys](no-keys.png)
+
+
 ## Features
 
 - **Automatic Detection**: Identifies 12+ common secret patterns (OpenAI, AWS, GitHub, Stripe, etc.)
