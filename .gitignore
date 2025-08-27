@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+.venv/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+
+# Claude-specific
+.claude/
+
+# Testing
+.coverage
+.pytest_cache/
